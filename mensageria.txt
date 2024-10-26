@@ -1,0 +1,20 @@
+RabbitMQ:
+
+1• Modelo: Baseado no protocolo AMQP (Advanced Message Queuing Protocol).
+2• Ideal para: Processamento de tarefas em tempo real e comunicação de sistemas com alta taxa de transferência e baixa latência.
+3• Recursos: Possui suporte a filas, tópicos e roteamento de mensagens com flexibilidade. Suporta várias opções de persistência e escalabilidade.
+4• Pontos fortes: Alta flexibilidade, gerenciamento de filas e roteamento avançado.
+
+BullMQ:
+
+1• Modelo: Baseado em Redis, é uma biblioteca de gerenciamento de filas para Node.js.
+2• Ideal para: Processos de tarefas em background em aplicações Node.js, especialmente em pequenos serviços.
+3• Recursos: Inclui recursos de agendamento, reintento de tarefas e suporte a delays. BullMQ permite também processamento paralelo.
+4• Pontos fortes: Simplicidade, alta velocidade e fácil integração em ecossistemas Node.js.
+
+Kafka:
+
+1• Modelo: Baseado em log distribuído e particionado, conhecido como Event Streaming Platform.
+2• Ideal para: Sistemas que necessitam de grande escalabilidade e distribuição, como processamento de grandes volumes de dados em tempo real e integração de microsserviços.
+3• Recursos: Kafka armazena dados em logs distribuídos, e sua estrutura de partições permite processamento paralelo de mensagens em larga escala.
+4• Pontos fortes: Alta escalabilidade, tolerância a falhas e processamento paralelo de mensagens.
